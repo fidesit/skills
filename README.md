@@ -6,11 +6,11 @@ Drop a skill folder into your project's `.claude/skills/` directory and invoke i
 
 ## Skills
 
-### peer-review
+### reviewed-rulebook
 
 Multi-agent document generation with iterative AI peer review. An orchestrator generates a draft from authoritative sources, then fans out to **5 parallel reviewer subagents**. Each reviewer evaluates a different dimension of quality. The loop repeats until all reviewers pass or max iterations are reached, then the result goes through a human approval gate.
 
-![Peer Review Infographic](./skills/peer-review/peer-review-infographic.svg)
+![Peer Review Infographic](./skills/reviewed-rulebook/reviewed-rulebook-infographic.svg)
 
 | Agent | Role | Passes when |
 |-------|------|-------------|
@@ -25,13 +25,13 @@ Between iterations, a **revision agent** addresses every flagged issue without t
 **Install**
 
 ```bash
-cp -r skills/peer-review/ your-project/.claude/skills/peer-review/
+cp -r skills/reviewed-rulebook/ your-project/.claude/skills/reviewed-rulebook/
 ```
 
 **Invoke**
 
 ```
-/peer-review Document prompt: ...
+/reviewed-rulebook Document prompt: ...
 Sources: ...
 Completeness checklist: ...
 Probe cases: ...
@@ -41,9 +41,9 @@ Max iterations: 3
 **Structure**
 
 ```
-skills/peer-review/
+skills/reviewed-rulebook/
 ├── SKILL.md                        # Orchestrator — 6-phase pipeline
-├── peer-review-infographic.svg     # Visual explainer
+├── reviewed-rulebook-infographic.svg     # Visual explainer
 └── prompts/
     ├── source-fetcher.md           # Phase 1: fetch and digest sources
     ├── draft-generator.md          # Phase 2: generate initial document

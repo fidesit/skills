@@ -1,10 +1,10 @@
 ---
-name: peer-review
+name: reviewed-rulebook
 description: >
   Generate a document with iterative AI peer review. Fan-out to 5 parallel
   reviewer subagents (accuracy, completeness, overlap, probe, temporal),
   revise until all pass or max iterations reached, then present for approval.
-  Use when asked to "peer review", "generate and review a document",
+  Use when asked to "reviewed rulebook", "generate and review a document",
   "create a reviewed rulebook", or "write with review loop".
 context: fork
 ---
