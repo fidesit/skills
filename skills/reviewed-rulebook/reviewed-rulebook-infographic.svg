@@ -53,7 +53,7 @@
   <!-- ================================ -->
   <!-- HEADLINE                         -->
   <!-- ================================ -->
-  <text x="540" y="128" text-anchor="middle" font-family="'Sora','Inter',sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Peer-Reviewed Document</text>
+  <text x="540" y="128" text-anchor="middle" font-family="'Sora','Inter',sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Reviewed Rulebook</text>
   <text x="540" y="178" text-anchor="middle" font-family="'Sora','Inter',sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Generation Pipeline</text>
   <text x="540" y="214" text-anchor="middle" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="17" font-weight="600" letter-spacing="4" fill="#5BADD6">MULTI-AGENT SKILL · CLAUDE CODE</text>
 
@@ -94,8 +94,9 @@
   <rect x="636" y="260" width="390" height="90" rx="8" fill="#123B5C" stroke="#2178A8" stroke-width="1.5" opacity="0.9"/>
   <text x="672" y="293" font-family="'Sora','Inter',sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="#5BADD6">PHASE 3</text>
   <text x="672" y="316" font-family="'Sora','Inter',sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Parallel Review</text>
-  <text x="785" y="316" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="14" font-weight="600" fill="#CC9A06">5 agents in parallel</text>
   <text x="672" y="336" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="12" fill="#8DC8E8">Each returns PASS or FAIL with issues</text>
+  <rect x="910" y="277" width="100" height="20" rx="4" fill="#3a3018" stroke="#CC9A06" stroke-width="1" opacity="0.9"/>
+  <text x="960" y="291" text-anchor="middle" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="10" font-weight="700" fill="#ffd888">5 IN PARALLEL</text>
   <!-- Icon: fan-out -->
   <circle cx="998" cy="295" r="14" fill="#2178A8" opacity="0.2"/>
   <line x1="993" y1="295" x2="1003" y2="288" stroke="#5BADD6" stroke-width="1.5" stroke-linecap="round"/>
@@ -127,7 +128,7 @@
   <text x="78" y="458" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88b898">Cross-reference every</text>
   <text x="78" y="474" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88b898">claim against source</text>
   <text x="78" y="490" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88b898">material.</text>
-  <text x="78" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#38b888" opacity="0.7">VERIFIED | CONFLICT</text>
+  <text x="78" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#b0f0d8">VERIFIED | CONFLICT</text>
 
   <!-- Reviewer 2: Completeness -->
   <rect x="260" y="400" width="180" height="130" rx="8" fill="#182e4a" stroke="#5098e0" stroke-width="1.5" opacity="0.9"/>
@@ -138,7 +139,7 @@
   <text x="278" y="458" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88a8c0">Audit document against</text>
   <text x="278" y="474" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88a8c0">user-provided checklist.</text>
   <text x="278" y="490" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#88a8c0">No gaps allowed.</text>
-  <text x="278" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#5098e0" opacity="0.7">COVERED | MISSING</text>
+  <text x="278" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#b8d8f8">COVERED | MISSING</text>
 
   <!-- Reviewer 3: Overlap -->
   <rect x="460" y="400" width="180" height="130" rx="8" fill="#2e1c48" stroke="#9068d8" stroke-width="1.5" opacity="0.9"/>
@@ -149,7 +150,7 @@
   <text x="478" y="458" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#a090c0">Detect rules that both</text>
   <text x="478" y="474" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#a090c0">match same input, or</text>
   <text x="478" y="490" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#a090c0">inputs with no rule.</text>
-  <text x="478" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#9068d8" opacity="0.7">OVERLAPS | DEAD_ENDS</text>
+  <text x="478" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#d8c0f8">OVERLAPS | DEAD_ENDS</text>
 
   <!-- Reviewer 4: Probe -->
   <rect x="660" y="400" width="180" height="130" rx="8" fill="#3a3018" stroke="#e0a848" stroke-width="1.5" opacity="0.9"/>
@@ -160,7 +161,7 @@
   <text x="678" y="458" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c0a880">Run test cases using</text>
   <text x="678" y="474" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c0a880">only the document as</text>
   <text x="678" y="490" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c0a880">reference. No cheating.</text>
-  <text x="678" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#e0a848" opacity="0.7">OK | AMBIGUOUS</text>
+  <text x="678" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#ffe0a0">OK | AMBIGUOUS</text>
 
   <!-- Reviewer 5: Temporal -->
   <rect x="860" y="400" width="180" height="130" rx="8" fill="#3a2028" stroke="#e06058" stroke-width="1.5" opacity="0.9"/>
@@ -171,7 +172,7 @@
   <text x="878" y="458" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c09898">Verify effective dates,</text>
   <text x="878" y="474" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c09898">transition periods, and</text>
   <text x="878" y="490" font-family="'Plus Jakarta Sans','Inter',sans-serif" font-size="11" fill="#c09898">sunset clauses.</text>
-  <text x="878" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#e06058" opacity="0.7">DATES | TRANSITIONS</text>
+  <text x="878" y="516" font-family="'JetBrains Mono',monospace" font-size="10" fill="#ffc0b8">DATES | TRANSITIONS</text>
 
   <!-- ================================ -->
   <!-- CONVERGENCE — PHASE 4            -->
@@ -207,7 +208,7 @@
 
   <!-- Phase 5 label on the loop -->
   <rect x="10" y="448" width="36" height="110" rx="6" fill="#3a3018" stroke="#CC9A06" stroke-width="1" opacity="0.8"/>
-  <text x="28" y="476" text-anchor="middle" font-family="'Sora','Inter',sans-serif" font-size="9" font-weight="600" letter-spacing="1" fill="#CC9A06" transform="rotate(-90, 28, 503)">PHASE 5 · REVISE</text>
+  <text text-anchor="middle" font-family="'Sora','Inter',sans-serif" font-size="9" font-weight="600" letter-spacing="1" fill="#ffd888" transform="translate(28, 503) rotate(-90)">PHASE 5 · REVISE</text>
 
   <!-- ================================ -->
   <!-- BRANCH: PASS → Phase 6           -->
